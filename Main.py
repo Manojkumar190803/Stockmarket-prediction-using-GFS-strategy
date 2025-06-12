@@ -49,7 +49,9 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # -----------------------------
 # File Paths & Directories
 # -----------------------------
-BASE_DIR = r"/Users/manojkumar/Programs Lang/Stock Market Project(Major pro)/DATASETS"
+
+#BASE_DIR = r"/Users/manojkumar/Programs Lang/Stock Market Project(Major pro)/DATASETS"
+BASE_DIR = "DATASETS"
 DAILY_DIR = os.path.join(BASE_DIR, "Daily_data")
 WEEKLY_DIR = os.path.join(BASE_DIR, "Weekly_data")
 MONTHLY_DIR = os.path.join(BASE_DIR, "Monthly_data")
